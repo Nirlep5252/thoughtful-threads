@@ -52,7 +52,7 @@ export function Navbar() {
                 </Avatar>
               </DropdownMenuTrigger>
               <DropdownMenuContent>
-                <Link href="/profile">
+                <Link href="/">
                   <DropdownMenuItem className="cursor-pointer flex flex-col items-start">
                     <div>{session.data.user.name}</div>
                     <div className="text-gray-400">
@@ -61,7 +61,7 @@ export function Navbar() {
                   </DropdownMenuItem>
                 </Link>
                 <DropdownMenuSeparator />
-                <Link href="/settings">
+                <Link href="/">
                   <DropdownMenuItem className="cursor-pointer">
                     Settings
                   </DropdownMenuItem>
